@@ -1,0 +1,129 @@
+body{
+    margin: 0 6%;
+    display:flex;
+    background-color:rgb(219, 215, 215);
+    flex-direction:column;
+    text-align:right;
+    align-items: end;
+}
+
+h3{
+    border-right:solid;
+    padding:10px;
+    border-right-color: rgb(13, 94, 169);
+}
+
+span{
+    color:gray;
+}
+.card-content i {
+    color:gray;
+    margin-left: 10px;
+}
+
+.section{
+    width: 100%;
+}
+.section-cards{
+    
+    width:100%;
+    display:flex;
+    flex-direction:row-reverse;
+    justify-content:space-between;
+}
+.card{
+    width:31%;
+    background-color:white;
+    margin:10px;
+    border-radius:30px;
+    
+}
+
+.cards2{
+    width:200px;
+    height:200px;
+    background-color:white;
+    margin:10px;
+    border-radius:30px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    
+}
+.cards2 img{
+  
+    width:110px;
+    height:110px;
+}
+
+
+
+.service-card{
+    
+    padding:40px;
+    width: 18%;
+    background-color:white;
+
+    border-radius:30px;
+}
+.btn{
+    margin-top:5px;
+    background-color: yellow;
+    padding: 3px 5px;
+    border: none;
+}
+.spacing{
+    margin-right:5px;
+}
+.service-card img{
+  
+    right:0%;
+    position: relative;
+    background-color: #FFE083;
+    border-radius:10px;
+
+  
+    width:100px;
+    height:100px;
+}
+
+.card-img{
+    width:100%;
+    height:60%;
+    border-radius:30px;
+    margin-bottom:10px
+}
+.card-content{
+    margin: 0 3%;
+}
+.card-p{
+    font-weight:bold
+}
+.pagination{
+    margin-top:20px;
+    width:100%;
+    display: flex;
+    justify-content:center;
+    gap: 60px;
+    font-size:15px;
+}
+.pagination span{
+    width:15px;
+    height:15px
+}
+.arrow-left{
+    border-radius: 4px;
+    border: 2px solid gray;
+    color: gray;
+    padding:6px;
+}
+
+.arrow-right{
+    border-radius: 4px;
+    background-color: yellow;
+    color: white;
+    padding:6px;
+}
+.logo-card{
+
+}

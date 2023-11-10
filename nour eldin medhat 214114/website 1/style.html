@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  font-family: Arial, sans-serif;
+}
+
+form {
+  width: 300px;
+  margin: 0 auto;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 4px;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+</style>
+</head>
+<body>
+	<div style="text-align:center">
+		<h3>Loan Application</h3>
+	  </div>
+
+<form action="/submit_application">
+	<div style="text-align:center">
+		<h3>Applicant Information:</h3>
+	  </div>
+	<div style="text-align:center">
+<label for="fname">First Name:</label><br>
+<input type="text" id="fname" name="fname"><br>
+
+<label for="lname">Last Name:</label><br>
+<input type="text" id="lname" name="lname"><br>
+
+<label for="Email">Email:</label><br>
+<input type="text" id="Email" name="Email"><br>
+
+<label for="Email">Social Security #:</label><br>
+<input type="text" id="Social Security #" name="Social Security #"><br>
+
+<label for="fname">First Name:</label><br>
+<input type="text" id="fname" name="fname"><br>
+
+<label for="fname">First Name:</label><br>
+<input type="text" id="fname" name="fname"><br>
+
+<h3>Loan Information:</h3>
+<label for="loantype">Loan Type:</label><br>
+<select id="loantype" name="loantype">
+<option value="automobile">Automobile</option>
+<option value="home">Home</option>
+<option value="personal">Personal</option>
+</select><br>
+
+<label for="loanamount">Loan Amount:</label><br>
+<input type="text" id="loanamount" name="loanamount"><br>
+
+<input type="submit" value="Submit Application">
+</form>
+
+</body>
+</html>

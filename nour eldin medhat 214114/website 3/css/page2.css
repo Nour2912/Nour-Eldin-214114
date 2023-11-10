@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.head{
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/second\ background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.layout{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.5);
+}
+.head .head1{
+color: darkorange;
+}
+.head .nari{
+color: grey;
+}
+
+.parent{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: dimgrey;
+
+}
